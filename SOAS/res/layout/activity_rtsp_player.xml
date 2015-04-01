@@ -1,0 +1,61 @@
+<!--
+ DESCRIPCION: Interfaz pantalla de reproduccion streaming RTSP.
+ AUTOR: Javier Herrero Arnanz.
+ VERSION: 1.0
+ FECHA: 29-05-2014
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".StreamingPlayerActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <SurfaceView
+            android:id="@+id/surface"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/speed_Layout"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="55dp"
+        android:background="@color/blue" >
+
+        <TextView
+            android:id="@+id/speed_Text"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" 
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/speed_Measure"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/speed_Text"
+            android:text="@string/km_label"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

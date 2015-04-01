@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SOAS</string>
+    <string name="SOAS_label">Safe Overtaking Android System</string>
+    <string name="on_label">ON</string>
+    <string name="off_label">OFF</string>
+    <string name="ip_label">Device IP:</string>
+    <string name="ip">x.x.x.x</string>
+    <string name="km_label">Km/h</string>
+    <string name="about_label">About SOAS</string>
+    <string name="about_title">Master Thesis</string>
+    <string name="about_degree">Máster en Ingeniería de Computadores</string>
+    <string name="about_university">Universidad Politécnica de Valencia</string>
+    <string name="author_label">Author: </string>
+    <string name="tutor_label">Tutor: </string>
+    <string name="about_author">Javier Herrero Arnanz</string>
+    <string name="about_tutor">Carlos Tavares Calafate</string>
+    <string name="about_date">September 2014</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_logs">Logs</string>
+    <string name="settings_title">Select validation parameters</string>
+    <string name="direction_label">Direction:</string>
+    <string name="location_label">Location:</string>
+    <string name="overtaking_label">Overtaking:</string>
+    <string name="disable_val_label">Disable validation</string>
+    <string name="degrees_label">degrees</string>
+    <string name="client_label">Client</string>
+    <string name="server_label">Server</string>
+    <string name="delete_label">Delete logs</string>
+
+</resources>
